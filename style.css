@@ -1,0 +1,23 @@
+header{
+    background: slategray;
+    height: 100px;
+}
+h1{
+    font-family: Impact;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+}
+h2{
+    font-family: Impact;
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+}
+section{
+    display: flex;
+}
+a:any-link{
+    color: white;
+}
