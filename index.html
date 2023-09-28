@@ -1,12 +1,39 @@
 <!DOCTYPE HTML>
+<!-- This is the index website, AKA. My home page-->
 <html lang="en-us">
     <head>
         <meta charset="utf-8"> 
         <title> Zachary Static Website </title>   
         <style>
+            table {
+                border-collapse: collapse;
+                border: 2px solid rgb(0, 0, 0);
+                letter-spacing: 1px;
+                font-size: 0.8rem;
+            }
+            td {
+                border: 1px solid rgb(0, 0, 0);
+                padding: 10px 20px;
+                text-align: center;
+             }
+            tr{
+                background-color: rgb(250,250,250);
+            }
+            section{
+             display: flex;
+            }
+            div{
+                margin: 0 50px;
+                text-align: center;
+                font-family: 'Times New Roman', Times, serif;
+                line-height: 50px;
+            }
+            form{
+                background-color: gray;
+                padding: 10px;
+            }
         </style>
         <link rel = "stylesheet" href = "style.css" text = text/css>
-    
     </head>
     <body>
         <header>
@@ -17,61 +44,87 @@
                 <a href = "spots.html"class = "navigation">Spots</a>
             </h2>
         </header>
-        <p class = "intro">
+        <p>
             <h3>Introduction</h3>
             Hello! I'm Zachary and this is my first static website!
-            Here you will some information about me, but I'll list the basics first!
+            Through this website you will some information about me, but I'll list the basics first!
             I'm the president of the school's poetry club and an event planner for the Calihraphy club!
-            I also work at the <a href = "https://www.bklynlibrary.org"> Brooklyn Public Library </a>. 
+            I also work at the <a href = "https://www.bklynlibrary.org">Brooklyn Public Library.</a>. 
+            I've had experience with coding both front end and back end; however, this is my first time making a website.
+            I'm excited to see how this class goes!
         </p>
-        <h4> My Schedule</h4>
-        <table>
-            <tr>
-                <td></td> 
-                <td>Odd Days</td>
-                <td>Even Days</td>
-            </tr>
-            <tr>
-                <td>Period 3</td>
-                <td>IT Infa </td>
-                <td>IT Infa</td>
-            </tr>
-            <tr>
-                <td>Period 4</td>
-                <td>Lunch </td>
-                <td>Lunch</td>
-            </tr>
-            <tr>
-                <td>Period 5</td>
-                <td>AP Calc AB </td>
-                <td>AP Calc AB</td>
-            </tr>
-            <tr>
-                <td>Period 6</td>
-                <td>AP Gov </td>
-                <td>AP Gov</td>
-            </tr>
-            <tr>
-                <td>Period 7</td>
-                <td>Free </td>
-                <td>Gym</td>
-            </tr>
-            <tr>
-                <td>Period 8</td>
-                <td>English</td>
-                <td>English</td>
-            </tr>
-            <tr>
-                <td>Period 9</td>
-                <td>Web Dev</td>
-                <td>PLTW DE</td>
-            </tr>
-            <tr>
-                <td>Period 10</td>
-                <td>Web Dev</td>
-                <td>PLTW DE</td>
-            </tr>
-        </table>
+        <section>
+            <img src = "Brooklyn-Tech-circle.webp">
+            <div>
+                My schedule for senior year. 
+                <table>
+                    <tr>
+                        <td></td> 
+                        <td>Odd Days</td>
+                        <td>Even Days</td>
+                    </tr>
+                    <tr>
+                        <td>Period 3</td>
+                        <td>IT Infa </td>
+                        <td>IT Infa</td>
+                    </tr>
+                    <tr>
+                     <td>Period 4</td>
+                        <td>Lunch </td>
+                        <td>Lunch</td>
+                    </tr>
+                    <tr>
+                        <td>Period 5</td>
+                        <td>AP Calc AB </td>
+                        <td>AP Calc AB</td>
+                    </tr>
+                    <tr>
+                        <td>Period 6</td>
+                        <td>AP Gov </td>
+                        <td>AP Gov</td>
+                    </tr>
+                    <tr>   
+                        <td>Period 7</td>
+                        <td>Free </td>
+                        <td>Gym</td>
+                    </tr>
+                    <tr>
+                        <td>Period 8</td>
+                        <td>English</td>
+                        <td>English</td>
+                    </tr>
+                    <tr>
+                        <td>Period 9</td>
+                        <td>Web Dev</td>
+                        <td>PLTW DE</td>
+                    </tr>
+                    <tr>
+                        <td>Period 10</td>
+                        <td>Web Dev</td>
+                        <td>PLTW DE</td>
+                    </tr>
+                </table>
+            </div>
+            <img src = "webdev.webp">
+        </section>
+        <p>
+            I'm excited to learn more about computer science and coding this year and look forward to a good senior year! 
+            The things I'm most looking forward to, in no particular order, are:
+        </p>
+        <ul>
+            <li>Graduating</li>
+            <li>Cyber Security</li>
+            <li>Soldering</li>
+            <li>Hanging out with friends</li>
+            <li>Clubs</li>
+            <li>Senior Year Events</li>
+        </ul>
+        <p> For any feedback or interesting information let know here:</p>
+        <form>
+            <label>Your feedback:</label>
+            <input type = "text" name = "name">
+        </form>
+        <br>
         <footer>
             &copy Zachary Raykh, BTHS'24
         </footer>

@@ -1,9 +1,42 @@
 <!DOCTYPE HTML>
+<!-- This is the favorites part of the website, some of my favorite things to do!-->
 <html lang="en-us">
     <head>
         <meta charset="utf-8"> 
         <title> Zachary Static Website </title>   
         <style>
+            .music{
+                display: flex;
+            }
+            .rock{
+                height: 320px;
+                width: 800px;
+            }
+            .musicInfo{
+                position: center;
+                margin: 0 10px;
+                padding: 20px;
+                font-family: 'Times New Roman', Times, serif;
+                background-color: lightgrey;
+                height: 280px;
+                width: 480px;
+            }
+            .hobbyInfo{
+                position: center;
+                margin: 0 10px;
+                padding: 20px;
+                font-family: 'Times New Roman', Times, serif;
+                background-color: lightgrey;
+                height: 280px;
+                width: 480px;
+            }
+            .hobbies{
+                display: flex;
+            }
+            .bird{
+                height: 320px;
+                width: 600px;
+            }
         </style>
         <link rel = "stylesheet" href = "style.css" text = text/css>
     
@@ -17,6 +50,50 @@
               <a href = "spots.html" class = "navigation">Spots</a>
             </h2>
         </header>
+        <div class = introInterests>
+            <h3>Interests</h3>
+            <p>
+                 Some of my favorite things to do include photography, playing video games, or hanging out with friends! 
+                I'll cover my photography more in skills as I am a profressional photographer, so I'll focus on other stuff here! 
+                One of my favorite things to do is play games when I have time. Often times through <a href = "https://steamcommunity.com/id/LifeIsnt_EaZy/">Steam</a>!
+                I have a long list of games that I love to play from open world games to multiplayer shooters. All in all, I just enjoy playing video games.
+                I also like going out with friends for food, movies, or anywhere for fun! Lately, I've been watching horror movies with my friends every weekend!
+                Beyond horror, I also enjoy thrillers and some action films. 
+            </p>
+        </div>
+        <br> <br>
+        <div class = music>
+            <span class = musicInfo>
+                <h3>Music Taste</h3>
+                <p>
+                    I love to listen to mostly rock. Any type of heavy rock is my preference, from punk to any type of metal.
+                     I used to go to concerts more often and can't wait to go to more! I've also been trying to learn the guitar lately.
+                     Below is a sample of stuff I'd listen to normally!
+                </p>
+                <audio controls>
+                    <source src = "mixkit-daredevil-80.mp3" type = "audio/mp3">
+                </audio>
+            </span>
+            <img class = "rock" src = "rock.webp">
+        </div>
+        <br> <br>
+        <div class = hobbies>
+            <img class = "quill" src = "quill.jpg">
+            <span class = hobbyInfo>
+                <h3>Hobbies</h3>
+                <p>
+                    One of my largest hobbies is poetry. I love to write poems and run the school's poetry club. 
+                    I like writing poems more than reading them, but I still do read a good share of poets.
+                    My favorite poet would be Robert Frost.  Aside from that I love to write in general.
+                    Overall I would say that writing is my biggest hobby. Beyond that, I also like urban exploring 
+                    or just seeing new spots in the city. Birding is another hobby of mine that ties into photography.
+                    The video isn't mine, but I like finding various birds and getting photos of them. Often times,
+                    they aren't pigeons, but more so cardinals, jays, finches, or hawks.
+                </p>
+            </span>  
+            <video class = "bird" src = "bird.mp4" controls></video>
+        </div>
+        <br> <br>
         <footer>
             &copy Zachary Raykh, BTHS'24
         </footer>
